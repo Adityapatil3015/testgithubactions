@@ -2,7 +2,7 @@ name: Python CI
 
 # Triger the workflow on any push to the main branch or pull request
 on:
-  push:  <--- Event
+  push:  # <--- Event
     branches:
      - main  ## Events Pull, Push, Merge, Delete ---> Trigger Workflow
   pull_request:
