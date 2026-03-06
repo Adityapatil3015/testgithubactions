@@ -11,3 +11,7 @@ def test_sub():
 def test_mul() :
     assert mul(5,5) == 25
     assert mul(5,0) == 0
+
+def test_divide() :
+    assert divide(10,2) == 5
+    assert divide(10,0) == "Error: Division by zero is not allowed"
